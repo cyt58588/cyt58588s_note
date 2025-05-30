@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <title>{{ page.title }}</title>
-  <link rel="stylesheet" href="/style.css" />
+  <link rel="stylesheet" href="{{ '/style.css' | relative_url }}">
 </head>
 <body>
 
@@ -14,7 +14,7 @@
 <nav>
   <ul>
     <li><a href="/">首頁</a></li>
-    <li><a href="/_notes/">筆記列表</a></li>
+    <li><a href="/notes/">筆記列表</a></li>
   </ul>
 </nav>
 
