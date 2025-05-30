@@ -1,11 +1,30 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="UTF-8" />
-    <title>{{ page.title }}</title>
-    <link rel="stylesheet" href="{{ '/style.css' | relative_url }}">
-  </head>
-  <body>
-    {{ content }}
-  </body>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8" />
+  <title>{{ page.title }}</title>
+  <link rel="stylesheet" href="/style.css" />
+</head>
+<body>
+
+<header>
+  <h1>我的筆記站</h1>
+</header>
+
+<nav>
+  <ul>
+    <li><a href="/">首頁</a></li>
+    <li><a href="/_notes/">筆記列表</a></li>
+  </ul>
+</nav>
+
+<main>
+  {{ content }}
+</main>
+
+<footer>
+  © 2025 我的筆記站
+</footer>
+
+</body>
 </html>
