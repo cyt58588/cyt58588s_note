@@ -1,0 +1,7 @@
+title: 我的筆記站
+description: 使用 Markdown + Jekyll 寫筆記
+baseurl: ""  # 如果你是 user site（例如 yourname.github.io），這邊留空
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
